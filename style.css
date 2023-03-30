@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+:root{
+    --font-family: 'Open Sans', sans-serif;
+    --cor-primaria: #A5D7E8;
+    --cor-bg: #0B2447 ;
+}
+
+body{
+    background-color: var(--cor-bg);
+    color: var(--cor-primaria);
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1, h2{
+    font-size: 8em;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 4em;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 3em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    background-color: var(--cor-bg);
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+    font-size:1.5em;
+    font-weight: 300;
+    margin-top: 2em;
+    padding: .5em;
+}
